@@ -1,0 +1,13 @@
+column,original_korean,description
+household_id,가구ID,Household ID
+n_members,"(가구원 수, 새로 계산)",Number of members in the household
+mN_member_no,가구원번호,"Member number within household (1 = self, 2 = spouse)"
+mN_relation,이민귀화자와관계,"Relationship to the immigrant/naturalized person (1 = self, 2 = spouse, 3 = child, 4-15 = other relatives)"
+mN_sex,성별,Sex (code; verify with codebook)
+mN_marital_status,혼인상태,Marital status (code; 2 = married)
+mN_birth_nationality,출생시국적_1,"Nationality at birth (1 = Korea, 2 = foreign, estimated)"
+mN_birth_nationality_2,출생시국적_2,Second nationality at birth (dual nationals only)
+mN_birth_country_code,출생시국적코드(외국),Foreign country code at birth
+mN_first_entry,최초입국여부,First entry (0/1 code)
+mN_naturalized,국적취득여부,"Acquired Korean nationality (0 = no, 1 = yes)"
+mN_child_abroad_exp,자녀_외국생활경험,"Child: experience living abroad (1/2 code, children only)"
